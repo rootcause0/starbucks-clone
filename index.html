@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>starbucks-clone by rootcause0</title>
+    <style>
+        .main-navbar {
+    height: 119px;
+}
+.homepage-main-banner {
+    height: 641px;
+}
+.homepage-main-banner-content {
+    width: 90%;
+    max-width: 1440px;
+}
+.menu-list > li {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #006241;
+    text-decoration: none;
+}
+    </style>
+  </head>
+  <body>
+    <div class="main-wrapper">
+        <header class="h-5/6">
+          <div class="main-navbar flex w-full py-4 px-4 justify-between items-center border-b-4 border-green-700">
+            <img src="https://www.starbucks.com.au/img/logo.svg" class="text-sm text-gray-500"/>
+    
+            <ul class="menu-list flex gap-4 uppercase hover:cursor-pointer hidden lg:block lg:flex-row lg:flex-nowrap lg:flex">
+              <li class="text-sm text-gray-500">Coffee</li>
+              <li class="text-sm text-gray-500">Menu</li>
+              <li class="text-sm text-gray-500">Merchandise</li>
+              <li class="text-sm text-gray-500">Starbucks Rewards</li>
+              <li class="text-sm text-gray-500">About Us</li>
+              <li class="text-sm text-gray-500">Careers</li>
+              <li class="text-sm text-gray-500">Blog</li>
+            </ul>
+          </div>
+        </header>
+        <main id="site-main">
+          <div class="homepage-main-banner relative">
+            <div class="w-full bg-cover h-full absolute top-0 left-0"
+                 style="background-image: url('https://www.starbucks.com.au/imagecache/fitwithin/2560x2560/_files/hero/star10084-fy23-header-banner-background.jpg')"></div>
+            <div class="homepage-main-banner-content flex flex-wrap items-center text-center m-auto relative z-30">
+              <div class="images-text flex-[1_1_50%] p-8">
+                <h2 class="images-text text-center text-neutral-800 mb-1">
+                  <strong style="font-size: 3.889rem; font-weight: 700;">
+                    SPICE UP YOUR LIFE
+                  </strong>
+                </h2>
+                <p class="text-center tracking-wide text-xl font-medium text-gray-800 mt-1">
+                  A beloved seasonal favourite is BACK.<br>
+                  Enjoy our Pumpkin Spiced range any way you&nbsp;like&nbsp;-&nbsp;hot,&nbsp;cold&nbsp;or&nbsp;extra&nbsp;creamy.
+                </p>
+              </div>
+              <span class="images-text-image flex-[1_1_50%]">
+                <img class="w-auto"
+                     src="https://www.starbucks.com.au/imagecache/fitwithin/1280x1280/_files/hero/star10084-fy23-header-banner-product-image.png"/>
+              </span>
+            </div>
+          </div>
+        </main>
+      </div>
+  </body>
+</html>
+
